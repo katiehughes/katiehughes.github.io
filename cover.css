@@ -13,10 +13,18 @@ a:hover {
 .btn-default,
 .btn-default:hover,
 .btn-default:focus {
-  color: #333;
+  color: #fff;
   text-shadow: none; /* Prevent inheritance from `body` */
-  background-color: #fff;
+  background-image:"background.jpg";
   border: 1px solid #fff;
+}
+
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  img.bg {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
 }
 
 
@@ -27,11 +35,14 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
 }
 body {
+  background:url(background.jpg) no-repeat center center fixed;
+  background-size: cover;
   color: #fff;
   text-align: center;
+  font-family: sans-serif;
+  font-size: 24px;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 
@@ -76,7 +87,8 @@ body {
 .masthead-nav > li > a {
   padding-right: 0;
   padding-left: 0;
-  font-size: 16px;
+  font-size: 18px;
+  font-family: sans-serif;
   font-weight: bold;
   color: #fff; /* IE8 proofing */
   color: rgba(255,255,255,.75);
