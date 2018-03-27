@@ -20,7 +20,7 @@ a:hover {
 }
 
 
-@media screen and (max-width: 1024px) { /* Specific to this particular image */
+@media screen (max-width: 1024px) { /* Specific to this particular image */
   img.bg {
     left: 50%;
     margin-left: -512px;   /* 50% */
@@ -37,7 +37,7 @@ body {
   height: 100%;
 }
 body {
-  background:url(background.jpg) no-repeat center center fixed;
+  background:url (background.jpg) no-repeat center center fixed;
   background-size: cover;
   color: #fff;
   text-align: center;
