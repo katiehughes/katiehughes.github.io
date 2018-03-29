@@ -17,6 +17,7 @@ a: hover {
   text-shadow: none; /* Prevent inheritance from `body` */
   background-image:"background.jpg";
   border: 1px solid #fff;
+  font-colour: #000040
 }
 
 
