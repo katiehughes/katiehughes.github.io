@@ -4,8 +4,8 @@
 
 /* Links */
 a,
-a:focus,
-a:hover {
+a: focus,
+a: hover {
   color: #00ffffff;
 }
 
@@ -103,7 +103,7 @@ body {
 .masthead-nav > .active > a:hover,
 .masthead-nav > .active > a:focus {
   color: #fff;
-  border-bottom-color: #fff;
+  border-bottom-color: #00ffffff;
 }
 
 @media (min-width: 768px) {
