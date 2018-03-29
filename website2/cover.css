@@ -89,7 +89,7 @@ body {
   font-size: 18px;
   font-family: sans-serif;
   font-weight: bold;
-  font-color: #fff; /* IE8 proofing */
+  color: #fff; /* IE8 proofing */
   color: rgba(255,255,255,.75);
   border-bottom: 2px solid transparent;
 }
@@ -103,7 +103,7 @@ body {
 .masthead-nav > .active > a:hover,
 .masthead-nav > .active > a:focus {
   color: #fff;
-  border-bottom-color: #00ffffff;
+  border-bottom-color: #fff;
 }
 
 @media (min-width: 768px) {
