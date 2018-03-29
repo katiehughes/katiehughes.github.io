@@ -13,7 +13,7 @@ a: hover {
 .btn-default,
 .btn-default: hover,
 .btn-default: focus {
-  color: #fff;
+  color: #00ffffff;
   text-shadow: none; /* Prevent inheritance from `body` */
   background-image:"background.jpg";
   border: 1px solid #fff;
