@@ -4,23 +4,33 @@
 
 /* Links */
 a,
-a:focus,
-a:hover {
+a: focus,
+a: hover {
   color: #fff;
 }
 
 /* Custom default button */
 .btn-default,
-.btn-default:hover,
-.btn-default:focus {
-  color: #fff;
+.btn-default: hover,
+.btn-default: focus {
+  color: #00ffffff;
+  background-color: transparent;
   text-shadow: none; /* Prevent inheritance from `body` */
-  background-image:"background.jpg";
   border: 1px solid #fff;
+  font-color: #000040
 }
 
+#enterButton {
+    background-color: transparent;
+    color: #fff;
+}
 
-@media screen and (max-width: 1024px) { /* Specific to this particular image */
+#enterButton:hover {
+    background-color: #fff;
+    color: #000040;
+}
+
+@media screen (max-width: 1024px) { /* Specific to this particular image */
   img.bg {
     left: 50%;
     margin-left: -512px;   /* 50% */
@@ -35,9 +45,8 @@ a:hover {
 html,
 body {
   height: 100%;
-}
-body {
-  background-image: "background.jpg";
+  background-image: url("../img/background.jpg");
+  background-color: #cccccc;
   background-size: cover;
   color: #fff;
   text-align: center;
@@ -116,6 +125,13 @@ body {
   }
 }
 
+.button {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+}
 
 /*
  * Cover

@@ -4,24 +4,23 @@
 
 /* Links */
 a,
-a: focus,
-a: hover {
+a:focus,
+a:hover {
   color: #fff;
 }
 
 /* Custom default button */
 .btn-default,
-.btn-default: hover,
-.btn-default: focus {
-  color: #00ffffff;
+.btn-default:hover,
+.btn-default:focus {
+  color: #fff;
   text-shadow: none; /* Prevent inheritance from `body` */
   background-image:"background.jpg";
   border: 1px solid #fff;
-  font-color: #000040
 }
 
 
-@media screen (max-width: 1024px) { /* Specific to this particular image */
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
   img.bg {
     left: 50%;
     margin-left: -512px;   /* 50% */
@@ -36,8 +35,9 @@ a: hover {
 html,
 body {
   height: 100%;
-  background-image: url("background.jpg");
-  background-color: #cccccc;
+}
+body {
+  background-image: "background.jpg";
   background-size: cover;
   color: #fff;
   text-align: center;
@@ -116,13 +116,6 @@ body {
   }
 }
 
-.button {     
-    background-color: transparent;
-    background-repeat: no-repeat;
-    border: none;
-    cursor: pointer;
-    overflow: hidden;        
-}
 
 /*
  * Cover
